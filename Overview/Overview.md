@@ -94,7 +94,7 @@ You can apply for a 30-day free trial at the following link https://signup.snowf
 
 # SnowPro Core Certification MCQs
 
-# SnowPro Core Certification MCQs (Based on Overview Content)
+# SnowPro Core Certification MCQs (Based on Overview)
 
 ### 1. What is the primary responsibility of an organization in Snowflake?  
 - A. Managing schemas and databases  
