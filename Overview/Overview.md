@@ -92,8 +92,6 @@
 You can apply for a 30-day free trial at the following link https://signup.snowflake.com/. Trying out the Enterprise edition is recommended.
 
 
-# SnowPro Core Certification MCQs
-
 # SnowPro Core Certification MCQs (Based on Overview)
 
 ### 1. What is the primary responsibility of an organization in Snowflake?  
