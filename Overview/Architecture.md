@@ -71,3 +71,493 @@ Also known as the Global Services Layer, it is a collection of highly available 
 * Availability
 * Transparent online updates and patches
 * Runs on Snowflake-managed compute
+
+-----------
+
+### MCQs ###
+------------
+1. What is the primary architecture model used by Snowflake?
+   - A. Cloud-native
+   - B. On-premises
+   - C. Hybrid cloud
+   - D. Virtualized cloud
+   <details>**Answer:** A. Cloud-native</details>
+
+2. Which Snowflake service is responsible for storing metadata?
+   - A. Cloud services
+   - B. Compute layer
+   - C. Data storage
+   - D. Query processing
+   - <details>**Answer:** A. Cloud services</details>
+
+3. Which of the following best describes Snowflake's compute layer?
+   - A. Serverless
+   - B. Multi-cluster
+   - C. Single-node
+   - D. Local compute
+   - <details>**Answer:** B. Multi-cluster</details>
+
+4. What is Snowflake's default file format for storing data?
+   - A. CSV
+   - B. Parquet
+   - C. JSON
+   - D. Avro
+   - <details>**Answer:** B. Parquet</details>
+
+5. How does Snowflake store data for maximum efficiency?
+   - A. In a flat file system
+   - B. In a columnar format
+   - C. Using JSON indexing
+   - D. In relational tables only
+   - <details>**Answer:** B. In a columnar format</details>
+
+6. What is the purpose of Snowflake's virtual warehouses?
+   - A. To store data
+   - B. To process queries
+   - C. To perform backups
+   - D. To manage metadata
+   - <details>**Answer:** B. To process queries</details>
+
+7. Which of the following is Snowflake's approach to scaling compute power?
+   - A. Vertical scaling only
+   - B. Horizontal scaling using virtual warehouses
+   - C. Manually resizing servers
+   - D. Using multi-cloud storage
+   - <details>**Answer:** B. Horizontal scaling using virtual warehouses</details>
+
+8. Which feature does Snowflake use for automatic scaling of compute resources?
+   - A. Compute clustering
+   - B. Virtual warehouse auto-suspend
+   - C. Multi-cluster warehouses
+   - D. Dynamic query optimization
+   - <details>**Answer:** C. Multi-cluster warehouses</details>
+
+9. What is Snowflake's approach to data storage cost?
+   - A. Fixed pricing model
+   - B. Pay-per-use based on storage volume
+   - C. Flat monthly fee
+   - D. Free storage for all users
+   - <details>**Answer:** B. Pay-per-use based on storage volume</details>
+
+10. Which of the following is a key advantage of Snowflake’s architecture?
+    - A. Fully on-premises deployment
+    - B. Separation of compute and storage layers
+    - C. Unlimited storage with no cost
+    - D. No need for data partitioning
+    - <details>**Answer:** B. Separation of compute and storage layers</details>
+11. What does Snowflake use to ensure data consistency across virtual warehouses?
+   - A. Distributed computing
+   - B. Centralized metadata store
+   - C. Data sharding
+   - D. Replicated data storage
+   - <details>**Answer:** B. Centralized metadata store</details>
+
+12. Which of the following best describes Snowflake’s architecture model?
+   - A. Shared-nothing
+   - B. Shared-disk
+   - C. Shared-storage
+   - D. Shared-cloud
+   - <details>**Answer:** A. Shared-nothing</details>
+
+13. Snowflake’s data sharing feature allows:
+   - A. Only read access to other users
+   - B. Read and write access across organizations
+   - C. Secure data sharing with external partners
+   - D. Sharing only within the same region
+   - <details>**Answer:** C. Secure data sharing with external partners</details>
+
+14. In Snowflake, how is data security managed?
+   - A. Only at the virtual warehouse level
+   - B. Only through access control policies
+   - C. Through a combination of encryption, access control, and secure data sharing
+   - D. Using physical firewalls
+   - <details>**Answer:** C. Through a combination of encryption, access control, and secure data sharing</details>
+
+15. Which Snowflake feature allows for the encryption of data both at rest and in transit?
+   - A. Transparent Data Encryption (TDE)
+   - B. Automatic Encryption
+   - C. Tri-Secret Secure
+   - D. End-to-end encryption
+   - <details>**Answer:** B. Automatic Encryption</details>
+
+16. How does Snowflake handle elastic compute capacity?
+   - A. By allowing dynamic scaling of virtual warehouses
+   - B. By using dedicated servers for each customer
+   - C. Through the use of physical clusters
+   - D. By limiting compute to storage scale
+   - <details>**Answer:** A. By allowing dynamic scaling of virtual warehouses</details>
+
+17. What feature does Snowflake’s Data Marketplace provide?
+   - A. Direct database sharing with partners
+   - B. Secure access to third-party data sets
+   - C. Data warehousing services
+   - D. Real-time data replication
+   - <details>**Answer:** B. Secure access to third-party data sets</details>
+
+18. Which Snowflake edition provides the ability to create customer-dedicated virtual warehouses?
+   - A. Standard Edition
+   - B. Enterprise Edition
+   - C. Business Critical Edition
+   - D. Virtual Private Snowflake
+   - <details>**Answer:** D. Virtual Private Snowflake</details>
+
+19. Which of the following does Snowflake use to separate compute and storage layers?
+   - A. Multi-cloud storage
+   - B. Independent compute clusters
+   - C. Cloud storage integration
+   - D. Cloud services layer
+   - <details>**Answer:** B. Independent compute clusters</details>
+
+20. What is Snowflake's approach to handling semi-structured data like JSON and Avro?
+   - A. It stores all data in a flat file format
+   - B. It automatically converts semi-structured data to a relational format
+   - C. It supports storing and querying semi-structured data without conversion
+   - D. It does not support semi-structured data
+   - <details>**Answer:** C. It supports storing and querying semi-structured data without conversion</details>
+21. Which of the following is NOT a Snowflake data storage type?
+   - A. Structured data
+   - B. Semi-structured data
+   - C. Unstructured data
+   - D. Raw data
+   - <details>**Answer:** D. Raw data</details>
+
+22. What type of storage does Snowflake use for data storage?
+   - A. Local storage on compute nodes
+   - B. Cloud storage that is separate from compute
+   - C. Shared on-premises storage
+   - D. Hybrid local-cloud storage
+   - <details>**Answer:** B. Cloud storage that is separate from compute</details>
+
+23. Snowflake uses which service for managing metadata?
+   - A. Cloud storage service
+   - B. Cloud services layer
+   - C. Dedicated data repository
+   - D. Compute layer
+   - <details>**Answer:** B. Cloud services layer</details>
+
+24. Which is a key benefit of Snowflake’s zero-copy cloning?
+   - A. It allows data to be copied without using storage space
+   - B. It ensures faster replication of data across regions
+   - C. It provides immediate access to data from other organizations
+   - D. It enables real-time data replication
+   - <details>**Answer:** A. It allows data to be copied without using storage space</details>
+
+25. Which Snowflake feature allows for sharing data across accounts without data movement?
+   - A. Virtual Warehouses
+   - B. Secure Data Sharing
+   - C. Data Cloning
+   - D. Materialized Views
+   - <details>**Answer:** B. Secure Data Sharing</details>
+
+26. What is the default size of a Snowflake virtual warehouse?
+   - A. Small
+   - B. Medium
+   - C. Large
+   - D. X-Large
+   - <details>**Answer:** A. Small</details>
+
+27. How are Snowflake's compute resources scaled?
+   - A. Manually, by resizing the virtual warehouse
+   - B. Automatically, based on workload demand
+   - C. By adding more nodes in the storage layer
+   - D. Through pre-configured resource allocation
+   - <details>**Answer:** B. Automatically, based on workload demand</details>
+
+28. Which of the following is NOT a feature of Snowflake’s Virtual Private Snowflake (VPS)?
+   - A. Customer-dedicated virtual warehouses
+   - B. Enhanced security with private networking
+   - C. Data encryption at rest and in transit
+   - D. Automatic scaling of storage
+   - <details>**Answer:** D. Automatic scaling of storage</details>
+
+29. In Snowflake, how are access control policies typically enforced?
+   - A. By using role-based access control (RBAC)
+   - B. By using manual permissions settings
+   - C. By using a centralized identity provider
+   - D. Through encrypted data policies
+   - <details>**Answer:** A. By using role-based access control (RBAC)</details>
+
+30. Snowflake’s automatic clustering helps to optimize:
+   - A. Data encryption
+   - B. Storage efficiency
+   - C. Query performance
+   - D. Compute usage
+   - <details>**Answer:** C. Query performance</details>
+31. Which of the following is NOT a feature of Snowflake's cloud data platform?
+   - A. Data replication across regions
+   - B. Automatic storage scaling
+   - C. Compute and storage scaling are independent
+   - D. On-premises data storage
+   - <details>**Answer:** D. On-premises data storage</details>
+
+32. What is Snowflake’s approach to data sharing?
+   - A. Data replication between accounts
+   - B. Secure sharing without moving data
+   - C. Providing access to external APIs
+   - D. Exporting data to third-party platforms
+   - <details>**Answer:** B. Secure sharing without moving data</details>
+
+33. In Snowflake, what does the term "zero-copy cloning" refer to?
+   - A. Copying data while retaining original storage
+   - B. Cloning virtual warehouses without resource duplication
+   - C. Copying data into another region
+   - D. An encryption feature that protects cloned data
+   - <details>**Answer:** A. Copying data while retaining original storage</details>
+
+34. What is a Snowflake virtual warehouse primarily responsible for?
+   - A. Storing data
+   - B. Query processing and compute tasks
+   - C. Managing data security
+   - D. Maintaining metadata
+   - <details>**Answer:** B. Query processing and compute tasks</details>
+
+35. What kind of data can be ingested into Snowflake’s data storage?
+   - A. Structured data
+   - B. Semi-structured data
+   - C. Unstructured data
+   - D. All of the above
+   - <details>**Answer:** D. All of the above</details>
+
+36. Which feature is designed to separate compute resources from storage in Snowflake?
+   - A. Virtual warehouses
+   - B. Data lakes
+   - C. Cloud services layer
+   - D. Materialized views
+   - <details>**Answer:** A. Virtual warehouses</details>
+
+37. Snowflake’s "Cloud Services Layer" is primarily responsible for:
+   - A. Storage management
+   - B. User authentication and access control
+   - C. Query processing
+   - D. Data ingestion
+   - <details>**Answer:** B. User authentication and access control</details>
+
+38. Which Snowflake feature allows scaling compute resources based on workload needs?
+   - A. Auto-scaling
+   - B. Static cluster size
+   - C. Cloud services layer
+   - D. Manual scaling
+   - <details>**Answer:** A. Auto-scaling</details>
+
+39. What type of data is best suited for Snowflake’s "semi-structured data" storage?
+   - A. JSON, XML, Avro
+   - B. CSV files
+   - C. Relational data
+   - D. Flat files
+   - <details>**Answer:** A. JSON, XML, Avro</details>
+
+40. Which feature does Snowflake offer to help with cost control and management?
+   - A. Automatic scaling of data
+   - B. Query optimization
+   - C. Resource monitor and usage tracking
+   - D. Zero-copy cloning
+   - <details>**Answer:** C. Resource monitor and usage tracking</details>
+41. What is the purpose of Snowflake's automatic scaling feature?
+   - A. Automatically increase compute resources when demand spikes
+   - B. Automatically increase storage space for large datasets
+   - C. Automatically optimize queries for better performance
+   - D. Automatically increase the number of users
+   - <details>**Answer:** A. Automatically increase compute resources when demand spikes</details>
+
+42. In Snowflake, what is the primary benefit of using "zero-copy cloning"?
+   - A. Reduces storage costs
+   - B. Allows for fast, cost-efficient data duplication
+   - C. Creates secure, encrypted copies of data
+   - D. Provides full backup capabilities
+   - <details>**Answer:** B. Allows for fast, cost-efficient data duplication</details>
+
+43. Which feature of Snowflake allows customers to securely share data with other Snowflake accounts without moving the data?
+   - A. External tables
+   - B. Data sharing
+   - C. External functions
+   - D. Zero-copy cloning
+   - <details>**Answer:** B. Data sharing</details>
+
+44. Snowflake provides native support for which of the following types of semi-structured data?
+   - A. JSON
+   - B. Parquet
+   - C. Avro
+   - D. All of the above
+   - <details>**Answer:** D. All of the above</details>
+
+45. Which of the following is a feature that enables Snowflake to scale independently between compute and storage?
+   - A. Shared disk architecture
+   - B. Virtual warehouses
+   - C. Dynamic data masking
+   - D. Snowflake database
+   - <details>**Answer:** B. Virtual warehouses</details>
+
+46. Which type of workload benefits from using Snowflake's multi-cluster warehouse configuration?
+   - A. Data processing and analytics workloads
+   - B. Data warehousing with massive concurrent users
+   - C. Low-cost storage solutions
+   - D. Real-time streaming workloads
+   - <details>**Answer:** B. Data warehousing with massive concurrent users</details>
+
+47. What is the function of Snowflake’s "Cloud Services Layer"?
+   - A. Query processing
+   - B. Data storage management
+   - C. Handles infrastructure management and user authentication
+   - D. Data sharing with external systems
+   - <details>**Answer:** C. Handles infrastructure management and user authentication</details>
+
+48. How does Snowflake handle data replication?
+   - A. By duplicating all data across clusters
+   - B. Using multi-cluster architecture for redundancy
+   - C. Automatically replicating data across regions and availability zones
+   - D. Through user-managed replication scripts
+   - <details>**Answer:** C. Automatically replicating data across regions and availability zones</details>
+
+49. What is Snowflake’s approach to storage scalability?
+   - A. Storage scaling is manual and requires user intervention
+   - B. Storage automatically scales with the increase in data volume
+   - C. Storage needs to be purchased upfront in fixed amounts
+   - D. Storage scaling happens only when queries are processed
+   - <details>**Answer:** B. Storage automatically scales with the increase in data volume</details>
+
+50. Which of the following is NOT a key feature of Snowflake’s architecture?
+   - A. Independent scaling of compute and storage
+   - B. Native support for multi-cloud deployment
+   - C. Fully managed services with no server maintenance required
+   - D. Requires fixed resource allocation for compute and storage
+   - <details>**Answer:** D. Requires fixed resource allocation for compute and storage</details>
+
+51. What role do Snowflake's virtual warehouses play in its architecture?
+   - A. Store large datasets
+   - B. Perform data transformations and compute operations
+   - C. Manage user authentication and access control
+   - D. Provide a UI interface for querying data
+   - <details>**Answer:** B. Perform data transformations and compute operations</details>
+
+52. Snowflake uses which of the following technologies to ensure that data is accessible across different cloud platforms?
+   - A. Cross-cloud replication
+   - B. Multi-cloud architecture
+   - C. Data federation
+   - D. Cloud services layer
+   - <details>**Answer:** B. Multi-cloud architecture</details>
+
+53. Which Snowflake feature ensures that no data is copied during data sharing between accounts?
+   - A. Data replication
+   - B. Data sharing
+   - C. Zero-copy cloning
+   - D. External tables
+   - <details>**Answer:** B. Data sharing</details>
+
+54. Which of the following is a primary benefit of Snowflake's automatic query optimization?
+   - A. Reduces data storage costs
+   - B. Improves the performance of data ingestion
+   - C. Enhances the speed of query execution
+   - D. Minimizes the need for manual tuning
+   - <details>**Answer:** C. Enhances the speed of query execution</details>
+
+55. What type of storage does Snowflake use to manage structured, semi-structured, and unstructured data?
+   - A. Relational database storage
+   - B. Cloud-native storage
+   - C. Columnar storage format
+   - D. Distributed file system
+   - <details>**Answer:** B. Cloud-native storage</details>
+
+56. Which Snowflake feature allows multiple users to run queries concurrently without performance degradation?
+   - A. Auto-scaling
+   - B. Multi-cluster warehouses
+   - C. Query optimization
+   - D. Resource monitoring
+   - <details>**Answer:** B. Multi-cluster warehouses</details>
+
+57. What is the primary benefit of using Snowflake’s "zero-copy cloning" feature?
+   - A. Enables faster query processing
+   - B. Reduces storage costs by not duplicating data
+   - C. Increases the security of sensitive data
+   - D. Allows data to be shared across organizations
+   - <details>**Answer:** B. Reduces storage costs by not duplicating data</details>
+
+58. Snowflake’s architecture supports which of the following for scaling compute resources?
+   - A. Vertical scaling only
+   - B. Horizontal scaling only
+   - C. Both vertical and horizontal scaling
+   - D. Scaling is not possible in Snowflake
+   - <details>**Answer:** C. Both vertical and horizontal scaling</details>
+
+59. How does Snowflake handle concurrent users accessing the same data?
+   - A. Through manual load balancing
+   - B. By using multi-cluster warehouses to avoid resource contention
+   - C. By prioritizing one query over others based on urgency
+   - D. By copying data to each user’s virtual warehouse
+   - <details>**Answer:** B. By using multi-cluster warehouses to avoid resource contention</details>
+
+60. Which of the following is a security feature provided by Snowflake for data protection?
+   - A. End-to-end encryption
+   - B. Automatic backup of all data
+   - C. External data tokenization
+   - D. Role-based access control
+   - <details>**Answer:** D. Role-based access control</details>
+61. What is the purpose of Snowflake's "Time Travel" feature?
+   - A. Allows users to travel back in time for historical data analysis
+   - B. Enables the storage of data across multiple regions
+   - C. Provides users with the ability to restore data to a previous state
+   - D. Automatically archives all data after 30 days
+   - <details>**Answer:** C. Provides users with the ability to restore data to a previous state</details>
+
+62. Which of the following best describes Snowflake's architecture?
+   - A. Single-cloud architecture with limited scalability
+   - B. Shared-disk architecture with independent compute and storage
+   - C. Shared-nothing architecture with independent compute and storage
+   - D. Centralized architecture with no scaling options
+   - <details>**Answer:** C. Shared-nothing architecture with independent compute and storage</details>
+
+63. What type of data does Snowflake support in its native format?
+   - A. Only structured data
+   - B. Only semi-structured data
+   - C. Only unstructured data
+   - D. Structured, semi-structured, and unstructured data
+   - <details>**Answer:** D. Structured, semi-structured, and unstructured data</details>
+
+64. Which feature of Snowflake helps in controlling access to sensitive data?
+   - A. Time Travel
+   - B. External Functions
+   - C. Dynamic Data Masking
+   - D. Multi-cluster warehouses
+   - <details>**Answer:** C. Dynamic Data Masking</details>
+
+65. What is Snowflake’s approach to scaling compute and storage independently?
+   - A. Multi-cluster architecture that scales both compute and storage simultaneously
+   - B. Auto-scaling for compute resources and manual scaling for storage
+   - C. Separate storage and compute layers, allowing each to scale independently
+   - D. Fixed compute and storage allocations
+   - <details>**Answer:** C. Separate storage and compute layers, allowing each to scale independently</details>
+
+66. In which scenario would you use Snowflake's "external tables" feature?
+   - A. To store historical data in the cloud
+   - B. To run queries on data stored in external cloud storage without moving it
+   - C. To optimize query performance
+   - D. To share data across different Snowflake accounts
+   - <details>**Answer:** B. To run queries on data stored in external cloud storage without moving it</details>
+
+67. Which of the following can be done using Snowflake's "Streams" feature?
+   - A. Automatically back up data
+   - B. Track changes to data in real time
+   - C. Encrypt data at rest
+   - D. Enable concurrent querying by multiple users
+   - <details>**Answer:** B. Track changes to data in real time</details>
+
+68. How does Snowflake ensure high availability?
+   - A. Through automatic replication of data to multiple regions and availability zones
+   - B. By providing manual replication setups for users
+   - C. By allowing users to choose between high availability and performance
+   - D. By storing all data on a single server with high redundancy
+   - <details>**Answer:** A. Through automatic replication of data to multiple regions and availability zones</details>
+
+69. Which of the following is true about Snowflake's pricing model?
+   - A. Pricing is fixed and based on user consumption
+   - B. Pricing is based on the storage size only
+   - C. Users pay for compute and storage separately, with auto-scaling features
+   - D. Snowflake has a flat-rate pricing system for all features
+   - <details>**Answer:** C. Users pay for compute and storage separately, with auto-scaling features</details>
+
+70. Which of the following features is used to automatically adjust compute resources based on demand in Snowflake?
+   - A. Virtual warehouses
+   - B. Multi-cluster warehouses
+   - C. Auto-scaling
+   - D. Resource monitors
+   - <details>**Answer:** C. Auto-scaling</details>
+
