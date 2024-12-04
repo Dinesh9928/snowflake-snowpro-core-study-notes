@@ -157,7 +157,7 @@ Also known as the Global Services Layer, it is a collection of highly available 
    - B. Shared-disk
    - C. Shared-storage
    - D. Shared-cloud
-   - <details>**Answer:** A. Shared-nothing</details>
+   - <details>**Answer:** D. Shared-cloud</details>
 
 13. Snowflake’s data sharing feature allows:
    - A. Only read access to other users
@@ -178,7 +178,7 @@ Also known as the Global Services Layer, it is a collection of highly available 
    - B. Automatic Encryption
    - C. Tri-Secret Secure
    - D. End-to-end encryption
-   - <details>**Answer:** B. Automatic Encryption</details>
+   - <details>**Answer:**A. Transparent Data Encryption (TDE)</details>
 
 16. How does Snowflake handle elastic compute capacity?
    - A. By allowing dynamic scaling of virtual warehouses
