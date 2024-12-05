@@ -239,6 +239,739 @@ UDFs extend Snowflake to perform operations that are not available through built
 ## Data Shares ##
 See [Data Sharing](DataSharing.md)
 
+### **Multiple-Choice Questions (MCQs)**
+
+
+
+### 1. Which Snowflake object holds the highest level of privileges?  
+- A. User  
+- B. Role  
+- C. Organization  
+- D. Warehouse  
+
+<details>**Answer:** C.</details> Organization
+
+
+
+### 2. What is the default privilege granted to the role that creates an object?  
+- A. USAGE  
+- B. OWNERSHIP  
+- C. EXECUTE  
+- D. READ  
+
+<details>**Answer:** B.</details> OWNERSHIP
+
+
+
+### 3. Which of the following is NOT a schema-level object?  
+- A. Table  
+- B. Role  
+- C. View  
+- D. Stream  
+
+<details>**Answer:** B.</details> Role
+
+
+
+### 4. What is the default storage type for a Snowflake table?  
+- A. Temporary  
+- B. External  
+- C. Permanent  
+- D. Transient  
+
+<details>**Answer:** C.</details> Permanent
+
+
+
+### 5. How many days of Time Travel does a Permanent table offer in the Enterprise Edition of Snowflake?  
+- A. 1 day  
+- B. 7 days  
+- C. 30 days  
+- D. 90 days  
+
+<details>**Answer:** D.</details> 90 days
+
+
+
+### 6. Which Snowflake feature allows automatic loading of data from a stage?  
+- A. Stored Procedure  
+- B. Snowpipe  
+- C. File Format  
+- D. Sequence  
+
+<details>**Answer:** B.</details> Snowpipe
+
+
+
+### 7. What command is used to retrieve the DDL of a Snowflake object?  
+- A. SHOW TABLE  
+- B. GET_DDL()  
+- C. DESCRIBE  
+- D. LIST_DDL()  
+
+<details>**Answer:** B.</details> GET_DDL()
+
+
+
+### 8. In Snowflake, which type of table is read-only and does not support Time Travel?  
+- A. Permanent Table  
+- B. Transient Table  
+- C. Temporary Table  
+- D. External Table  
+
+<details>**Answer:** D.</details> External Table
+
+
+
+### 9. Which of the following objects stores metadata for data files staged in Snowflake?  
+- A. Sequence  
+- B. Pipe  
+- C. Stage  
+- D. Stream  
+
+<details>**Answer:** C.</details> Stage
+
+
+
+### 10. Which object allows generating unique numbers across different sessions in Snowflake?  
+- A. Stage  
+- B. Sequence  
+- C. Stream  
+- D. View  
+
+<details>**Answer:** B.</details> Sequence
+
+11. **What type of object is a Snowflake `Warehouse`?**  
+   A. Schema-level object  
+   B. Account-level object  
+   C. Database-level object  
+   D. User-level object  
+   <details>**Answer:** B</details>
+
+12. **Which Snowflake object provides compute resources for query execution?**  
+   A. Database  
+   B. Role  
+   C. Warehouse  
+   D. Sequence  
+   <details>**Answer:** C</details>
+
+13. **In Snowflake, which of the following tables supports Fail-Safe?**  
+   A. External Table  
+   B. Transient Table  
+   C. Permanent Table  
+   D. Temporary Table  
+   <details>**Answer:** C</details>
+
+14. **Which of the following is used to define a sequence in Snowflake?**  
+   A. CREATE SEQUENCE  
+   B. CREATE INDEX  
+   C. CREATE FUNCTION  
+   D. CREATE STREAM  
+   <details>**Answer:** A</details>
+
+15. **What is the purpose of a `File Format` object in Snowflake?**  
+   A. To define the structure of database objects  
+   B. To define the format of staged data files  
+   C. To create user-defined functions  
+   D. To manage permissions for users  
+   <details>**Answer:** B</details>
+
+16. **Which type of view in Snowflake stores the query results and requires maintenance?**  
+   A. Standard View  
+   B. Secure View  
+   C. Materialized View  
+   D. Temporary View  
+   <details>**Answer:** C</details>
+
+17. **How can you access a User Stage in Snowflake?**  
+   A. `@USER`  
+   B. `@%TABLE_NAME`  
+   C. `@~`  
+   D. `@DEFAULT_STAGE`  
+   <details>**Answer:** C</details>
+
+18. **Which statement is true about Transient Tables in Snowflake?**  
+   A. They support Time Travel for up to 30 days.  
+   B. They have Fail-Safe for 7 days.  
+   C. They persist until dropped and do not support Fail-Safe.  
+   D. They are automatically dropped at the end of a session.  
+   <details>**Answer:** C</details>
+
+19. **In Snowflake, what does the `Pipe` object do?**  
+   A. Automatically refreshes Materialized Views  
+   B. Enables the automatic loading of staged files into a table  
+   C. Executes stored procedures  
+   D. Generates unique sequential values  
+   <details>**Answer:** B</details>
+
+20. **Which command is used to run a stored procedure in Snowflake?**  
+   A. EXECUTE PROCEDURE  
+   B. CALL  
+   C. RUN PROCEDURE  
+   D. INVOKE  
+   <details>**Answer:** B</details>
+
+21. **Which of the following Snowflake objects is read-only?**  
+   A. Permanent Table  
+   B. External Table  
+   C. Transient Table  
+   D. Temporary Table  
+   <details>**Answer:** B</details>
+
+22. **How are Materialized Views in Snowflake maintained?**  
+   A. Manually by users  
+   B. Automatically in the background  
+   C. Through external scripts  
+   D. By the cloud provider  
+   <details>**Answer:** B</details>
+
+23. **Which of the following objects allows for Secure Data Sharing in Snowflake?**  
+   A. Virtual Warehouse  
+   B. Secure View  
+   C. Transient Table  
+   D. Materialized View  
+   <details>**Answer:** B</details>
+
+24. **What is the default type of table created in Snowflake if no table type is specified?**  
+   A. Temporary Table  
+   B. Transient Table  
+   C. Permanent Table  
+   D. External Table  
+   <details>**Answer:** C</details>
+
+25. **Which of the following Snowflake objects is NOT schema-level?**  
+   A. Table  
+   B. Sequence  
+   C. Warehouse  
+   D. View  
+   <details>**Answer:** C</details>
+
+26. **Which Snowflake feature allows tables to be cloned with zero data copying?**  
+   A. Data Replication  
+   B. Zero-Copy Cloning  
+   C. Data Sharing  
+   D. Table Partitioning  
+   <details>**Answer:** B</details>
+
+27. **Which object in Snowflake is used to monitor and manage resource consumption?**  
+   A. Warehouse  
+   B. Resource Monitor  
+   C. Task  
+   D. Stage  
+   <details>**Answer:** B</details>
+
+28. **Which object holds metadata about files staged in Snowflake?**  
+   A. File Format  
+   B. Internal Stage  
+   C. Table Stage  
+   D. Resource Monitor  
+   <details>**Answer:** C</details>
+
+29. **What does the `GET_DDL` function in Snowflake do?**  
+   A. Retrieves metadata for all files in a stage  
+   B. Retrieves the definition of a database object  
+   C. Deletes a database object  
+   D. Grants privileges on a database object  
+   <details>**Answer:** B</details>
+
+30. **Which file format is NOT supported for External Tables in Snowflake?**  
+   A. Parquet  
+   B. Avro  
+   C. XML  
+   D. CSV  
+   <details>**Answer:** C</details>
+
+31. **What is the primary purpose of Snowflake’s Resource Monitor?**  
+   A. To manage file formats for data loading  
+   B. To monitor and control credit usage  
+   C. To store the metadata of database objects  
+   D. To define the clustering key for tables  
+   <details>**Answer:** B</details>
+
+32. **Which Snowflake object is referenced using `@~`?**  
+   A. Table Stage  
+   B. User Stage  
+   C. Internal Named Stage  
+   D. External Named Stage  
+   <details>**Answer:** B</details>
+
+33. **Which of the following commands is used to create a sequence in Snowflake?**  
+   A. CREATE PIPE  
+   B. CREATE INDEX  
+   C. CREATE SEQUENCE  
+   D. CREATE STAGE  
+   <details>**Answer:** C</details>
+
+34. **What is the default retention period for Time Travel on Permanent Tables in the Enterprise Edition of Snowflake?**  
+   A. 1 day  
+   B. 7 days  
+   C. 30 days  
+   D. 90 days  
+   <details>**Answer:** D</details>
+
+35. **Which type of stage in Snowflake is automatically available for every table?**  
+   A. User Stage  
+   B. Named Stage  
+   C. External Stage  
+   D. Table Stage  
+   <details>**Answer:** D</details>
+
+36. **Which object in Snowflake enables automatic data loading as soon as new data is available?**  
+   A. Sequence  
+   B. Materialized View  
+   C. Pipe  
+   D. UDF  
+   <details>**Answer:** C</details>
+
+37. **What type of view in Snowflake is required for Secure Data Sharing?**  
+   A. Standard View  
+   B. Materialized View  
+   C. Secure View  
+   D. Temporary View  
+   <details>**Answer:** C</details>
+
+38. **Which privilege must a role have to be considered the owner of a Snowflake object?**  
+   A. USAGE  
+   B. OWNERSHIP  
+   C. SELECT  
+   D. MANAGE  
+   <details>**Answer:** B</details>
+
+39. **Which Snowflake object allows external data files to be accessed by Snowflake without being copied into Snowflake storage?**  
+   A. Internal Stage  
+   B. External Table  
+   C. File Format  
+   D. Database Share  
+   <details>**Answer:** B</details>
+
+40. **Which of the following is a schema-level object in Snowflake?**  
+   A. Role  
+   B. Warehouse  
+   C. Table  
+   D. Network Policy  
+   <details>**Answer:** C</details>
+
+41. **Which of the following statements is true about Temporary Tables in Snowflake?**  
+   A. They support Fail-Safe for 7 days.  
+   B. They are visible across all sessions.  
+   C. They are automatically dropped at the end of a session.  
+   D. They support 30 days of Time Travel.  
+   <details>**Answer:** C</details>
+
+42. **Which Snowflake function can be used to retrieve the DDL of an object?**  
+   A. GET_METADATA()  
+   B. GET_OBJECT()  
+   C. SHOW_OBJECT()  
+   D. GET_DDL()  
+   <details>**Answer:** D</details>
+
+43. **Which type of Snowflake table does not support Time Travel or Fail-Safe?**  
+   A. Permanent Table  
+   B. Temporary Table  
+   C. External Table  
+   D. Transient Table  
+   <details>**Answer:** C</details>
+
+44. **What is the key difference between a Secure View and a Standard View in Snowflake?**  
+   A. Secure Views can only be used for internal queries.  
+   B. Secure Views execute with the privileges of the caller.  
+   C. Secure Views can be shared with other accounts.  
+   D. Secure Views are less performant due to bypassed optimizations.  
+   <details>**Answer:** C</details>, D
+
+45. **Which Snowflake object allows the execution of multiple SQL statements and can return a single value or tabular data?**  
+   A. UDF  
+   B. Stored Procedure  
+   C. Sequence  
+   D. Materialized View  
+   <details>**Answer:** B</details>
+
+46. **What file format is NOT supported by Snowflake’s File Format objects?**  
+   A. CSV  
+   B. JSON  
+   C. XML  
+   D. RTF  
+   <details>**Answer:** D</details>
+
+47. **What Snowflake feature allows for cloning an object without copying its data?**  
+   A. Data Replication  
+   B. Secure Data Sharing  
+   C. Zero-Copy Cloning  
+   D. Materialized Views  
+   <details>**Answer:** C</details>
+
+48. **Which Snowflake object stores the credentials required to access external cloud storage?**  
+   A. Stage  
+   B. Resource Monitor  
+   C. Storage Integration  
+   D. Pipe  
+   <details>**Answer:** C</details>
+
+49. **What is a valid use case for Materialized Views in Snowflake?**  
+   A. Real-time streaming data  
+   B. Frequently changing base tables  
+   C. Queries requiring expensive aggregates  
+   D. Storing user authentication data  
+   <details>**Answer:** C</details>
+
+50. **Which command allows you to list all User-Defined Functions (UDFs) in Snowflake?**  
+   A. SHOW FUNCTIONS;  
+   B. SHOW USER FUNCTIONS;  
+   C. DESCRIBE FUNCTIONS;  
+   D. LIST FUNCTIONS;  
+   <details>**Answer:** B</details>
+
+51. **Which Snowflake feature automatically compresses uncompressed files staged in an internal stage?**  
+    A. DEFLATE  
+    B. ZIP  
+    C. GZIP  
+    D. LZW  
+    <details>**Answer:** C</details>
+
+52. **What does `@%[TABLE_NAME]` reference in Snowflake?**  
+    A. Table Stage  
+    B. User Stage  
+    C. Named Stage  
+    D. External Stage  
+    <details>**Answer:** A</details>
+
+53. **Which of the following operations can be performed by Snowflake Stored Procedures?**  
+    A. Modify schema definitions (DDL)  
+    B. Perform data modifications (DML)  
+    C. Execute multiple SQL statements  
+    D. Return sets of rows directly into SQL statements  
+    <details>**Answer:** A</details>, B, C
+
+54. **Which of the following is an example of a Snowflake schema-level object?**  
+    A. Network Policy  
+    B. Sequence  
+    C. Role  
+    D. Warehouse  
+    <details>**Answer:** B</details>
+
+55. **What is the purpose of the `GET_DDL()` function in Snowflake?**  
+    A. To retrieve data from a table  
+    B. To list all files in a stage  
+    C. To retrieve the DDL (Data Definition Language) for an object  
+    D. To create a materialized view  
+    <details>**Answer:** C</details>
+
+56. **Which Snowflake object allows users to generate unique numbers across sessions and statements?**  
+    A. Table  
+    B. Sequence  
+    C. UDF  
+    D. Pipe  
+    <details>**Answer:** B</details>
+
+57. **What is required when creating an External Named Stage in Snowflake?**  
+    A. File format configuration only  
+    B. Only the stage URL  
+    C. URL, access credentials, and decryption keys (if required)  
+    D. Internal storage settings  
+    <details>**Answer:** C</details>
+
+58. **What type of Snowflake table is read-only and does not support cloning?**  
+    A. Permanent Table  
+    B. External Table  
+    C. Transient Table  
+    D. Temporary Table  
+    <details>**Answer:** B</details>
+
+59. **What is a key feature of Secure Views in Snowflake?**  
+    A. Can be optimized automatically by Snowflake query optimizer  
+    B. Allows modification of source table schema  
+    C. DDL visibility is restricted to authorized users  
+    D. Can be shared with external accounts  
+    <details>**Answer:** C</details>, D
+
+60. **What metadata field in Snowflake automatically stores the path and name of a staged file?**  
+    A. METADATA$PATH  
+    B. METADATA$ROW_NUMBER  
+    C. METADATA$FILENAME  
+    D. METADATA$FILE_FORMAT  
+    <details>**Answer:** C</details>
+
+61. **Which of the following are benefits of using Materialized Views in Snowflake?**  
+    A. Auto-refreshing query results  
+    B. Storing no data, similar to Standard Views  
+    C. Supporting streams for incremental changes  
+    D. Reducing query processing for frequently accessed data  
+    <details>**Answer:** A</details>, D
+
+62. **Which file format is NOT supported natively by Snowflake File Formats?**  
+    A. ORC  
+    B. JSON  
+    C. CSV  
+    D. DOCX  
+    <details>**Answer:** D</details>
+
+63. **What distinguishes a User-Defined Function (UDF) from a Stored Procedure in Snowflake?**  
+    A. UDFs can be used directly in SQL statements, Stored Procedures cannot  
+    B. UDFs modify data, while Stored Procedures cannot  
+    C. Stored Procedures execute multiple SQL statements, UDFs execute one  
+    D. UDFs can return tabular data, while Stored Procedures cannot  
+    <details>**Answer:** A</details>, C
+
+64. **Which of the following commands lists all User-Defined Functions in a Snowflake account?**  
+    A. SHOW USER FUNCTIONS;  
+    B. LIST FUNCTIONS;  
+    C. SHOW ALL FUNCTIONS;  
+    D. DESCRIBE FUNCTIONS;  
+    <details>**Answer:** A</details>
+
+65. **Which Snowflake object is required to load data automatically using Snowpipe?**  
+    A. Materialized View  
+    B. Sequence  
+    C. Pipe  
+    D. External Table  
+    <details>**Answer:** C</details>
+
+66. **In Snowflake, what object is referenced using `@~`?**  
+    A. Table Stage  
+    B. Named Stage  
+    C. User Stage  
+    D. Internal Stage  
+    <details>**Answer:** C</details>
+
+67. **Which Snowflake table type supports cloning but has no Fail-Safe?**  
+    A. Permanent Table  
+    B. Temporary Table  
+    C. Transient Table  
+    D. External Table  
+    <details>**Answer:** C</details>
+
+68. **Which of the following statements is true about Transient Tables in Snowflake?**  
+    A. They support 7 days of Fail-Safe.  
+    B. They persist across user sessions.  
+    C. They can only be cloned to Permanent Tables.  
+    D. They support 90 days of Time Travel in Enterprise Edition.  
+    <details>**Answer:** B</details>
+
+69. **Which Snowflake feature allows querying external data without copying it into Snowflake?**  
+    A. Materialized View  
+    B. External Table  
+    C. Zero-Copy Cloning  
+    D. Resource Monitor  
+    <details>**Answer:** B</details>
+
+70. **Which Snowflake function is used to access the next unique value from a sequence?**  
+    A. NEXTVAL  
+    B. GETVAL  
+    C. SEQ_NEXT  
+    D. GENERATEVAL  
+    <details>**Answer:** A</details>
+
+71. **What type of stage is automatically allocated to each table in Snowflake?**  
+    A. Named Stage  
+    B. User Stage  
+    C. Internal Stage  
+    D. Table Stage  
+    <details>**Answer:** D</details>
+
+72. **Which Snowflake object is responsible for storing identity and access management (IAM) credentials for external cloud storage?**  
+    A. Resource Monitor  
+    B. Storage Integration  
+    C. User Stage  
+    D. Warehouse  
+    <details>**Answer:** B</details>
+
+73. **What is the primary function of Snowflake Resource Monitors?**  
+    A. Managing storage integrations  
+    B. Monitoring and controlling credit usage  
+    C. Managing data sharing across accounts  
+    D. Providing encryption for external tables  
+    <details>**Answer:** B</details>
+
+74. **Which of the following data types can a Sequence in Snowflake generate?**  
+    A. Boolean  
+    B. Numeric  
+    C. String  
+    D. Binary  
+    <details>**Answer:** B</details>
+
+75. **Which Snowflake table type is purged once the session ends?**  
+    A. Permanent Table  
+    B. Transient Table  
+    C. Temporary Table  
+    D. External Table  
+    <details>**Answer:** C</details>
+
+76. **What is the default role when an object is created in Snowflake?**  
+    A. ACCOUNTADMIN  
+    B. The role used to create the object  
+    C. SYSADMIN  
+    D. PUBLIC  
+    <details>**Answer:** B</details>
+
+77. **Which command is used to retrieve the DDL of a database object in Snowflake?**  
+    A. SHOW OBJECT DDL;  
+    B. GET_OBJECT_DDL();  
+    C. GET_DDL();  
+    D. SHOW CREATE OBJECT;  
+    <details>**Answer:** C</details>
+
+78. **What is a key benefit of Snowflake’s Secure Views over Standard Views?**  
+    A. Higher query performance  
+    B. Automatic schema propagation  
+    C. Restricted DDL access for enhanced security  
+    D. Support for data sharing with external accounts  
+    <details>**Answer:** C</details>, D
+
+79. **Which of the following Snowflake stages can access multiple cloud storage providers?**  
+    A. Table Stage  
+    B. User Stage  
+    C. Named External Stage  
+    D. Internal Stage  
+    <details>**Answer:** C</details>
+
+80. **In Snowflake, which object type persists until explicitly dropped?**  
+    A. User Stage  
+    B. Transient Table  
+    C. Permanent Table  
+    D. Temporary Table  
+    <details>**Answer:** C</details>
+
+81. **Which Snowflake object is responsible for automatically loading data as soon as it is available?**  
+    A. Pipe  
+    B. Stored Procedure  
+    C. Sequence  
+    D. UDF  
+    <details>**Answer:** A</details>
+
+82. **Which Snowflake view type automatically refreshes data in the background?**  
+    A. Standard View  
+    B. Materialized View  
+    C. Secure View  
+    D. External View  
+    <details>**Answer:** B</details>
+
+83. **What is the purpose of clustering keys in Snowflake tables?**  
+    A. Enhance query performance by optimizing data access patterns  
+    B. Increase the storage efficiency of large tables  
+    C. Enable automatic data replication across regions  
+    D. Define user-level permissions for specific tables  
+    <details>**Answer:** A</details>
+
+84. **What happens if you clone a Permanent Table into a Transient Table in Snowflake?**  
+    A. The entire table becomes permanent  
+    B. The new partitions become transient, while old partitions remain permanent  
+    C. The table automatically becomes temporary  
+    D. Fail-Safe is enabled for the cloned table  
+    <details>**Answer:** B</details>
+
+85. **What is the default time travel retention period for Permanent Tables in the Enterprise Edition of Snowflake?**  
+    A. 1 day  
+    B. 7 days  
+    C. 30 days  
+    D. 90 days  
+    <details>**Answer:** D</details>
+
+86. **Which Snowflake object can generate values for a primary key in a table?**  
+    A. Pipe  
+    B. Sequence  
+    C. Stored Procedure  
+    D. Materialized View  
+    <details>**Answer:** B</details>
+
+87. **Which stage in Snowflake can only be accessed using the SnowSQL CLI?**  
+    A. Named Stage  
+    B. External Stage  
+    C. Internal Stage  
+    D. Table Stage  
+    <details>**Answer:** C</details>
+
+88. **What function is used to generate the next sequential value from a Snowflake sequence?**  
+    A. NEXTVAL  
+    B. SEQGEN  
+    C. INCREMENTVAL  
+    D. GENERATENUMBER  
+    <details>**Answer:** A</details>
+
+89. **Which Snowflake feature allows extending its functionality with user-defined functions?**  
+    A. Named Stages  
+    B. Sequences  
+    C. UDF (User-Defined Functions)  
+    D. Resource Monitors  
+    <details>**Answer:** C</details>
+
+90. **What is the main advantage of Snowflake’s Zero-Copy Cloning feature?**  
+    A. Increases performance of large queries  
+    B. Creates copies of objects without consuming additional storage  
+    C. Automatically compresses staged files  
+    D. Allows real-time data sharing between accounts  
+    <details>**Answer:** B</details>
+
+91. **Which cloud providers are supported for Snowflake Named External Stages?**  
+    A. Amazon S3  
+    B. Google Cloud Storage  
+    C. Microsoft Azure  
+    D. All of the above  
+    <details>**Answer:** D</details>
+
+92. **Which statement about Snowflake’s File Formats is true?**  
+    A. File formats can only be created for CSV files  
+    B. File formats describe how staged data should be accessed or loaded  
+    C. File formats automatically encrypt data  
+    D. File formats cannot be cloned  
+    <details>**Answer:** B</details>
+
+93. **What is the purpose of Snowflake's `COPY INTO` command?**  
+    A. Clone a table  
+    B. Copy a database object  
+    C. Load data from a stage into a table  
+    D. Create a new user  
+    <details>**Answer:** C</details>
+
+94. **Which of the following is a valid use case for Materialized Views in Snowflake?**  
+    A. To store results of frequently executed queries  
+    B. To enable Time Travel for historical analysis  
+    C. To define data sharing permissions  
+    D. To execute external scripts  
+    <details>**Answer:** A</details>
+
+95. **Which data type is NOT natively supported by Snowflake sequences?**  
+    A. Integer  
+    B. Decimal  
+    C. String  
+    D. Numeric  
+    <details>**Answer:** C</details>
+
+96. **Which statement about Snowflake’s Named Internal Stages is true?**  
+    A. They are managed by the cloud provider  
+    B. They allow specifying file formats  
+    C. They are accessible only via SQL commands  
+    D. They support external data sources  
+    <details>**Answer:** B</details>
+
+97. **Which Snowflake object is used to automatically load data from cloud storage?**  
+    A. Stored Procedure  
+    B. Pipe  
+    C. Sequence  
+    D. Resource Monitor  
+    <details>**Answer:** B</details>
+
+98. **What is the main difference between Standard and Secure Views in Snowflake?**  
+    A. Secure Views automatically optimize queries  
+    B. Standard Views cannot be shared, while Secure Views can  
+    C. Secure Views store data, whereas Standard Views do not  
+    D. Standard Views require special permissions to be queried  
+    <details>**Answer:** B</details>
+
+99. **What type of Snowflake object is used to store metadata for staged files?**  
+    A. File Format  
+    B. Table Stage  
+    C. Resource Monitor  
+    D. Named Stage  
+    <details>**Answer:** D</details>
+
+100. **Which Snowflake feature allows SQL-based procedural logic execution?**  
+    A. UDFs  
+    B. Sequences  
+    C. Snowflake Scripting  
+    D. Materialized Views  
+    <details>**Answer:** C</details>
+
+
 
 ## Multiple-Select Questions (MSQ)
 
