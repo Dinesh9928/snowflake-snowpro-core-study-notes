@@ -61,3 +61,285 @@ A transaction is a sequence of SQL statements that are committed or rolled back 
 * You can abort a running transaction with the system function `SYSTEM$ABORT_TRANSACTION `
 * Each transaction has independent scope
 * Snowflake does not support nested Transactions, although it supports nested Stored Procedure calls
+
+  ### MCQs
+
+**1. What is the main purpose of a Virtual Warehouse in Snowflake?**  
+- A. Data storage  
+- B. Query execution and DML operations  
+- C. Metadata management  
+- D. Cloud cost optimization  
+<details><summary>Answer</summary> B</details>
+
+**2. What happens if a Virtual Warehouse (VW) is idle but running?**  
+- A. It stops consuming credits.  
+- B. It continues consuming Snowflake credits.  
+- C. It auto-resizes to minimize costs.  
+- D. It switches to fail-safe mode.  
+<details><summary>Answer</summary> B</details>
+
+**3. Which feature is exclusive to Multi-Cluster Warehouses (MCW)?**  
+- A. Auto-suspend  
+- B. Scaling out/in  
+- C. Scaling up/down  
+- D. Load balancing within a single cluster  
+<details><summary>Answer</summary> B</details>
+
+**4. What is the smallest size of a Virtual Warehouse in Snowflake?**  
+- A. XS  
+- B. S  
+- C. M  
+- D. Micro  
+<details><summary>Answer</summary> A</details>
+
+**5. Which scaling policy starts an additional cluster only after at least 6 minutes of queued workload?**  
+- A. Standard  
+- B. Economy  
+- C. Adaptive  
+- D. Elastic  
+<details><summary>Answer</summary> B</details>
+
+**6. Which size is the default for Virtual Warehouses created using SQL?**  
+- A. XS  
+- B. S  
+- C. M  
+- D. XL  
+<details><summary>Answer</summary> A</details>
+
+**7. What happens when a Virtual Warehouse is resized while running?**  
+- A. Current queries are re-executed at the new size.  
+- B. Current queries complete at the current size; new queries use the new size.  
+- C. Current queries are canceled.  
+- D. Queued queries are paused until resizing completes.  
+<details><summary>Answer</summary> B</details>
+
+**8. Which feature ensures that a Virtual Warehouse automatically starts when a query is submitted?**  
+- A. Auto-suspend  
+- B. Auto-resume  
+- C. Scaling policy  
+- D. Initialization mode  
+<details><summary>Answer</summary> B</details>
+
+**9. What is the minimum auto-suspend setting through SQL?**  
+- A. 1 second  
+- B. 1 minute  
+- C. 5 minutes  
+- D. 60 minutes  
+<details><summary>Answer</summary> B</details>
+
+**10. How is the credit usage calculated for Multi-Cluster Warehouses?**  
+- A. Based only on the largest cluster in use.  
+- B. Based on the size and number of clusters running during the time period.  
+- C. Based on the average size of the warehouse.  
+- D. Based on the number of concurrent users.  
+<details><summary>Answer</summary> B</details>
+
+**11. What is the minimum chargeable runtime for a Virtual Warehouse per start?**  
+- A. 10 seconds  
+- B. 30 seconds  
+- C. 60 seconds  
+- D. 120 seconds  
+<details><summary>Answer</summary> C</details>
+
+**12. What does resizing a warehouse primarily achieve?**  
+- A. Reduces storage costs.  
+- B. Optimizes the network latency.  
+- C. Allows for faster query execution or data ingestion.  
+- D. Improves Time Travel retention.  
+<details><summary>Answer</summary> C</details>
+
+**13. Which of the following is true about nested transactions in Snowflake?**  
+- A. Nested transactions are supported.  
+- B. Nested transactions are partially supported.  
+- C. Nested transactions are not supported.  
+- D. Nested transactions depend on the SQL version used.  
+<details><summary>Answer</summary> C</details>
+
+**14. How long does Snowflake wait before aborting a detached transaction?**  
+- A. 1 hour  
+- B. 2 hours  
+- C. 4 hours  
+- D. 8 hours  
+<details><summary>Answer</summary> C</details>
+
+**15. Which scaling method is used to handle complex, long-running queries?**  
+- A. Scaling up/down  
+- B. Scaling out/in  
+- C. Scaling horizontally  
+- D. Scaling linearly  
+<details><summary>Answer</summary> A</details>
+
+**16. How does Snowflake calculate the credits for a Virtual Warehouse?**  
+- A. By the number of queries executed.  
+- B. By the size of the warehouse and its runtime.  
+- C. By the amount of data stored.  
+- D. By the complexity of the query workload.  
+<details><summary>Answer</summary> B</details>
+
+**17. What is the default size for Virtual Warehouses created through the web interface?**  
+- A. XS  
+- B. S  
+- C. L  
+- D. XL  
+<details><summary>Answer</summary> D</details>
+
+**18. Which of the following is true about Auto-Resume for Virtual Warehouses?**  
+- A. It is disabled by default.  
+- B. It is used to resume suspended warehouses when a query is submitted.  
+- C. It only works with Multi-Cluster Warehouses.  
+- D. It prevents warehouses from being resized.  
+<details><summary>Answer</summary> B</details>
+
+**19. What happens when queries are submitted to a Multi-Cluster Warehouse (MCW)?**  
+- A. All queries run on the same cluster.  
+- B. Queries are load-balanced across all active clusters.  
+- C. New clusters are immediately created for every query.  
+- D. Queries queue until one cluster finishes.  
+<details><summary>Answer</summary> B</details>
+
+**20. What is the minimum size of a Multi-Cluster Warehouse?**  
+- A. One cluster  
+- B. Two clusters  
+- C. Four clusters  
+- D. Ten clusters  
+<details><summary>Answer</summary> A</details>
+
+**21. Which policy allows a Multi-Cluster Warehouse to start additional clusters only after workload queues for at least 6 minutes?**  
+- A. Standard Policy  
+- B. Economy Policy  
+- C. Load-Balancing Policy  
+- D. High-Priority Policy  
+<details><summary>Answer</summary> B</details>
+
+**22. What happens to currently running queries during a warehouse resize?**  
+- A. They are rerun on the new size.  
+- B. They continue to execute at the original size.  
+- C. They are terminated.  
+- D. They are paused until the resize is complete.  
+<details><summary>Answer</summary> B</details>
+
+**23. Which scaling operation involves adding or removing compute clusters in a Multi-Cluster Warehouse?**  
+- A. Scale Up/Down  
+- B. Scale Out/In  
+- C. Scale Forward/Backward  
+- D. Dynamic Scaling  
+<details><summary>Answer</summary> B</details>
+
+**24. How does Snowflake charge for cloud services compute that exceeds 10% of total compute costs?**  
+- A. By applying a fixed surcharge.  
+- B. By charging per query executed.  
+- C. By using Snowflake credits.  
+- D. By increasing storage fees.  
+<details><summary>Answer</summary> C</details>
+
+**25. What is the default suspend setting for a Virtual Warehouse when created via the web UI?**  
+- A. 1 minute  
+- B. 5 minutes  
+- C. 10 minutes  
+- D. Disabled  
+<details><summary>Answer</summary> B</details>
+
+**26. How many credits does a 2XL warehouse with four servers consume per hour?**  
+- A. 2 credits  
+- B. 4 credits  
+- C. 8 credits  
+- D. 16 credits  
+<details><summary>Answer</summary> D</details>
+
+**27. What happens when a Virtual Warehouse is manually suspended?**  
+- A. It remains idle and consumes credits.  
+- B. It stops consuming credits.  
+- C. It disables queries from being run.  
+- D. It scales down automatically.  
+<details><summary>Answer</summary> B</details>
+
+**28. What feature ensures queries are distributed evenly across active compute clusters in a Multi-Cluster Warehouse?**  
+- A. Load Balancing  
+- B. Auto-Resume  
+- C. Scale Up  
+- D. Auto-Suspend  
+<details><summary>Answer</summary> A</details>
+
+**29. Which statement is true about Multi-Cluster Warehouses?**  
+- A. They are available in all Snowflake editions.  
+- B. They require manual cluster creation.  
+- C. They are limited to a maximum of 10 clusters.  
+- D. They automatically resize clusters for storage optimization.  
+<details><summary>Answer</summary> C</details>
+
+**30. How can one set a Virtual Warehouse to be created in a suspended state using SQL?**  
+- A. Use the `SUSPENDED = TRUE` parameter.  
+- B. Use the `INITIALLY_SUSPENDED = TRUE` parameter.  
+- C. Create the warehouse and immediately suspend it.  
+- D. Use the `CREATE_SUSPENDED = TRUE` command.  
+<details><summary>Answer</summary> B</details>
+
+**31. What is the primary purpose of a Virtual Warehouse in Snowflake?**  
+- A. Store data  
+- B. Perform compute operations  
+- C. Manage user roles  
+- D. Enable data replication  
+<details><summary>Answer</summary> B</details>
+
+**32. Which is the smallest size available for a Virtual Warehouse in Snowflake?**  
+- A. XS  
+- B. S  
+- C. M  
+- D. L  
+<details><summary>Answer</summary> A</details>
+
+**33. What is the minimum auto-suspend setting for a Virtual Warehouse configured using SQL?**  
+- A. 1 second  
+- B. 60 seconds  
+- C. 5 minutes  
+- D. 10 minutes  
+<details><summary>Answer</summary> B</details>
+
+**34. Which of the following editions supports Multi-Cluster Warehouses?**  
+- A. Standard Edition  
+- B. Enterprise Edition  
+- C. Developer Edition  
+- D. Business Critical Edition  
+<details><summary>Answer</summary> B, D</details>
+
+**35. What determines the compute cost of a Virtual Warehouse?**  
+- A. Storage size used  
+- B. Number of queries executed  
+- C. Virtual Warehouse size and runtime  
+- D. Time Travel duration  
+<details><summary>Answer</summary> C</details>
+
+**36. How does Snowflake handle queries during a warehouse scale-up operation?**  
+- A. Queries are terminated and restarted.  
+- B. Running queries continue at the old size.  
+- C. Running queries automatically resize.  
+- D. Queries are placed in a queue.  
+<details><summary>Answer</summary> B</details>
+
+**37. What is the default behavior for auto-resume when creating a Virtual Warehouse?**  
+- A. Disabled  
+- B. Enabled  
+- C. Configurable during creation  
+- D. Enabled only for Multi-Cluster Warehouses  
+<details><summary>Answer</summary> B</details>
+
+**38. How does the Standard Scaling Policy for Multi-Cluster Warehouses operate?**  
+- A. Adds clusters only after workload queues for 10 minutes.  
+- B. Starts clusters if a query is queued or expected to queue.  
+- C. Balances load without adding clusters.  
+- D. Stops unused clusters immediately.  
+<details><summary>Answer</summary> B</details>
+
+**39. What is the minimum runtime billed each time a Virtual Warehouse starts?**  
+- A. 1 second  
+- B. 1 minute  
+- C. 5 minutes  
+- D. 10 minutes  
+<details><summary>Answer</summary> B</details>
+
+**40. Which of the following actions can you perform on a running Virtual Warehouse?**  
+- A. Resize it  
+- B. Suspend it  
+- C. Delete it  
+- D. Scale it out  
+<details><summary>Answer</summary> A, B</details>
