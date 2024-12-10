@@ -249,7 +249,7 @@ See [Data Sharing](DataSharing.md)
 - C. Organization  
 - D. Warehouse  
 
-<details>**Answer:** C.</details> Organization
+<details>**Answer:** C.</details>
 
 
 
@@ -259,7 +259,7 @@ See [Data Sharing](DataSharing.md)
 - C. EXECUTE  
 - D. READ  
 
-<details>**Answer:** B.</details> OWNERSHIP
+<details>**Answer:** B.</details> 
 
 
 
@@ -269,7 +269,7 @@ See [Data Sharing](DataSharing.md)
 - C. View  
 - D. Stream  
 
-<details>**Answer:** B.</details> Role
+<details>**Answer:** B.</details>
 
 
 
@@ -279,7 +279,7 @@ See [Data Sharing](DataSharing.md)
 - C. Permanent  
 - D. Transient  
 
-<details>**Answer:** C.</details> Permanent
+<details>**Answer:** C.</details>
 
 
 
@@ -289,7 +289,7 @@ See [Data Sharing](DataSharing.md)
 - C. 30 days  
 - D. 90 days  
 
-<details>**Answer:** D.</details> 90 days
+<details>**Answer:** D.</details>
 
 
 
@@ -299,7 +299,7 @@ See [Data Sharing](DataSharing.md)
 - C. File Format  
 - D. Sequence  
 
-<details>**Answer:** B.</details> Snowpipe
+<details>**Answer:** B.</details>
 
 
 
@@ -309,7 +309,7 @@ See [Data Sharing](DataSharing.md)
 - C. DESCRIBE  
 - D. LIST_DDL()  
 
-<details>**Answer:** B.</details> GET_DDL()
+<details>**Answer:** B.</details>
 
 
 
@@ -319,7 +319,7 @@ See [Data Sharing](DataSharing.md)
 - C. Temporary Table  
 - D. External Table  
 
-<details>**Answer:** D.</details> External Table
+<details>**Answer:** D.</details>
 
 
 
@@ -329,7 +329,7 @@ See [Data Sharing](DataSharing.md)
 - C. Stage  
 - D. Stream  
 
-<details>**Answer:** C.</details> Stage
+<details>**Answer:** C.</details>
 
 
 
@@ -339,7 +339,7 @@ See [Data Sharing](DataSharing.md)
 - C. Stream  
 - D. View  
 
-<details>**Answer:** B.</details> Sequence
+<details>**Answer:** B.</details>
 
 11. **What type of object is a Snowflake `Warehouse`?**  
    A. Schema-level object  
